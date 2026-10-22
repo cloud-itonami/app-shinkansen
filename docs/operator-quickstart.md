@@ -12,7 +12,7 @@ the same kind of true. Steps marked ✅ were run against this tree on 2026-08-16
 
 ## 1. "9 line, 13 train type, 4 seat class" — one wrong, one unbacked, one right ✅
 
-`CLAUDE.md` line 5 makes all three claims together. Checked separately:
+`AGENTS.md` line 5 makes all three claims together. Checked separately:
 
 | claim | measured | |
 |---|---|---|
@@ -69,7 +69,7 @@ SDK. Worth pointing out because a sibling actor in this org advertises
 "screen-every-call writes OCEL audit event" in its governance section and contains
 the string zero times. Here the claim and the code agree.
 
-**Reservation PII is Tier 3** per `CLAUDE.md`, and the OCEL events are the trail
+**Reservation PII is Tier 3** per `AGENTS.md`, and the OCEL events are the trail
 that makes a Tier 3 handler auditable, so the two facts belong together.
 
 ## 3. Two test files, and the maturity instrument sees neither ⚠
@@ -113,7 +113,7 @@ run needs that substrate too, not just the packages.
 
 ## 5. Where the rest lives
 
-Per `CLAUDE.md`: three lexicons (`searchAvailability`, `reserveSeat`,
+Per `AGENTS.md`: three lexicons (`searchAvailability`, `reserveSeat`,
 `listOperations`), cross-actor links to `calendar` (confirmed-reservation sync),
 `railway` (rolling stock and routes) and `maps` (station geo). None of those is in
 this tree. Reservation sources named are SmartEX, EX予約 and えきねっと; this
